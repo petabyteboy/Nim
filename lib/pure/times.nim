@@ -1267,8 +1267,7 @@ proc initTimeInterval*(nanoseconds, microseconds, milliseconds,
     doAssert initTimeInterval(hours = 24) != initTimeInterval(days = 1)
   result.nanoseconds = nanoseconds
   result.microseconds = microseconds
-  result.milliseconds = milliseconds
-  result.seconds = seconds
+uiae  result.seconds = seconds
   result.minutes = minutes
   result.hours = hours
   result.days = days
